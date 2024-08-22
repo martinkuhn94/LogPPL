@@ -1,0 +1,570 @@
+{
+  "distributions": {
+    "Bernoulli": {
+      "description": "A distribution over a binary outcome (0 or 1) with a given probability.",
+      "functionName": "Bernoulli",
+      "variableTypes": ["boolean"],
+      "parameters": [
+        {
+          "name": "p",
+          "title": "Probability",
+          "type": "double",
+          "defaultValue": 0.5,
+          "required": true,
+          "description": "The probability of the outcome being 1.",
+          "detailedDescription": "This parameter represents the probability that the Bernoulli trial will result in a success (1).",
+          "minValue": 0,
+          "maxValue": 1
+        }
+      ]
+    },
+    "Beta": {
+      "description": "A continuous distribution over the interval [0, 1], commonly used to model probabilities.",
+      "functionName": "Beta",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "a",
+          "title": "Alpha shape parameter",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The alpha shape parameter.",
+          "detailedDescription": "Controls the shape of the distribution.",
+          "minValue": 0
+        },
+        {
+          "name": "b",
+          "title": "Beta shape parameter",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The beta shape parameter.",
+          "detailedDescription": "Works together with alpha to control the distribution's shape.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Binomial": {
+      "description": "A distribution over the number of successes in a fixed number of independent Bernoulli trials.",
+      "functionName": "Binomial",
+      "variableTypes": ["java.lang.Integer"],
+      "parameters": [
+        {
+          "name": "n",
+          "title": "Number of trials",
+          "type": "int",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The number of independent trials.",
+          "detailedDescription": "Represents the total number of Bernoulli trials conducted.",
+          "minValue": 1
+        },
+        {
+          "name": "p",
+          "title": "Probability of success",
+          "type": "double",
+          "defaultValue": 0.5,
+          "required": true,
+          "description": "The probability of success on each trial.",
+          "detailedDescription": "Represents the probability of each individual trial resulting in a success.",
+          "minValue": 0,
+          "maxValue": 1
+        }
+      ]
+    },
+    "Categorical": {
+      "description": "A distribution over a set of categories, each with a specified probability.",
+      "functionName": "Categorical",
+      "variableTypes": ["java.lang.String"],
+      "parameters": [
+        {
+          "name": "ps",
+          "title": "Probabilities",
+          "type": "double[]",
+          "defaultValue": [0.5, 0.5],
+          "required": true,
+          "description": "A list of probabilities for each category.",
+          "detailedDescription": "This parameter is an array of probabilities, one for each category. The sum of these probabilities should be 1."
+        },
+        {
+          "name": "vs",
+          "title": "Values",
+          "type": "string[]",
+          "defaultValue": ["A", "B"],
+          "required": true,
+          "description": "The categories or values corresponding to each probability.",
+          "detailedDescription": "An array of categories or values that correspond to each probability in the `ps` array."
+        }
+      ]
+    },
+    "Cauchy": {
+      "description": "A continuous distribution with heavier tails than a Gaussian distribution.",
+      "functionName": "Cauchy",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "location",
+          "title": "Location",
+          "type": "double",
+          "defaultValue": 0,
+          "required": true,
+          "description": "The location parameter of the distribution.",
+          "detailedDescription": "The peak or central value of the distribution."
+        },
+        {
+          "name": "scale",
+          "title": "Scale",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The scale parameter of the distribution.",
+          "detailedDescription": "Controls the width or spread of the distribution.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Delta": {
+      "description": "A degenerate distribution that assigns probability one to a single value.",
+      "functionName": "Delta",
+      "variableTypes": ["any"],
+      "parameters": [
+        {
+          "name": "v",
+          "title": "Value",
+          "type": "any",
+          "defaultValue": 0,
+          "required": true,
+          "description": "The value that has a probability of one.",
+          "detailedDescription": "The single value that this distribution represents."
+        }
+      ]
+    },
+    "DiagCovGaussian": {
+      "description": "A multivariate Gaussian distribution with a diagonal covariance matrix.",
+      "functionName": "DiagCovGaussian",
+      "variableTypes": ["tensor"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean",
+          "type": "double[]",
+          "defaultValue": [0, 0],
+          "required": true,
+          "description": "The mean vector of the distribution.",
+          "detailedDescription": "A tensor specifying the means for each dimension."
+        },
+        {
+          "name": "sigma",
+          "title": "Standard deviations",
+          "type": "double[]",
+          "defaultValue": [1, 1],
+          "required": true,
+          "description": "The standard deviations for each dimension.",
+          "detailedDescription": "A tensor specifying the standard deviations for each dimension.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Dirichlet": {
+      "description": "A distribution over probability vectors.",
+      "functionName": "Dirichlet",
+      "variableTypes": ["vector"],
+      "parameters": [
+        {
+          "name": "alpha",
+          "title": "Concentration",
+          "type": "double[]",
+          "defaultValue": [1, 1],
+          "required": true,
+          "description": "The concentration parameters.",
+          "detailedDescription": "A vector of positive values controlling the distribution of probability vectors.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Discrete": {
+      "description": "A distribution over discrete outcomes indexed from 0 to n-1.",
+      "functionName": "Discrete",
+      "variableTypes": ["java.lang.Integer"],
+      "parameters": [
+        {
+          "name": "ps",
+          "title": "Probabilities",
+          "type": "double[]",
+          "defaultValue": [0.5, 0.5],
+          "required": true,
+          "description": "A list of probabilities for each outcome.",
+          "detailedDescription": "This parameter is an array of probabilities, one for each outcome. The sum of these probabilities should be 1."
+        }
+      ]
+    },
+    "Exponential": {
+      "description": "A distribution modeling the time between events in a Poisson process.",
+      "functionName": "Exponential",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "a",
+          "title": "Rate parameter",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The rate parameter.",
+          "detailedDescription": "Controls the expected time between events.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Gamma": {
+      "description": "A continuous distribution often used to model waiting times.",
+      "functionName": "Gamma",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "shape",
+          "title": "Shape parameter",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The shape of the distribution.",
+          "detailedDescription": "Controls the shape of the distribution.",
+          "minValue": 0
+        },
+        {
+          "name": "scale",
+          "title": "Scale parameter",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The scale of the distribution.",
+          "detailedDescription": "Controls the spread or width of the distribution.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Gaussian": {
+      "description": "A continuous distribution defined by a mean and standard deviation.",
+      "functionName": "Gaussian",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean",
+          "type": "double",
+          "defaultValue": 0,
+          "required": true,
+          "description": "The mean of the distribution.",
+          "detailedDescription": "The central value around which the distribution is centered."
+        },
+        {
+          "name": "sigma",
+          "title": "Standard deviation",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The standard deviation of the distribution.",
+          "detailedDescription": "Controls the spread or width of the distribution.",
+          "minValue": 0
+        }
+      ]
+    },
+    "KDE": {
+      "description": "A distribution based on a kernel density estimate of data.",
+      "functionName": "KDE",
+      "variableTypes": ["real array"],
+      "parameters": [
+        {
+          "name": "data",
+          "title": "Data",
+          "type": "double[]",
+          "defaultValue": [1, 2, 3],
+          "required": true,
+          "description": "The data array used for estimation.",
+          "detailedDescription": "An array of data points from which the distribution is estimated."
+        },
+        {
+          "name": "width",
+          "title": "Kernel width",
+          "type": "double",
+          "defaultValue": 1,
+          "required": false,
+          "description": "The width of the kernel used in the estimate.",
+          "detailedDescription": "Controls the smoothness of the estimated distribution."
+        }
+      ]
+    },
+    "Laplace": {
+      "description": "A continuous distribution often used in Bayesian statistics.",
+      "functionName": "Laplace",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "location",
+          "title": "Location",
+          "type": "double",
+          "defaultValue": 0,
+          "required": true,
+          "description": "The location parameter of the distribution.",
+          "detailedDescription": "The central value of the distribution, around which it is centered."
+        },
+        {
+          "name": "scale",
+          "title": "Scale",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The scale parameter of the distribution.",
+          "detailedDescription": "Controls the spread of the distribution, with larger values resulting in wider distributions.",
+          "minValue": 0
+        }
+      ]
+    },
+    "LogisticNormal": {
+      "description": "A distribution over probability vectors derived from a multivariate normal distribution.",
+      "functionName": "LogisticNormal",
+      "variableTypes": ["vector"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean vector",
+          "type": "double[]",
+          "defaultValue": [0, 0],
+          "required": true,
+          "description": "The mean vector of the underlying normal distribution.",
+          "detailedDescription": "Defines the central tendency of the distribution."
+        },
+        {
+          "name": "sigma",
+          "title": "Standard deviations",
+          "type": "double[]",
+          "defaultValue": [1, 1],
+          "required": true,
+          "description": "The standard deviations of the underlying normal distribution.",
+          "detailedDescription": "Controls the spread of each dimension.",
+          "minValue": 0
+        }
+      ]
+    },
+    "Mixture": {
+      "description": "A distribution that is a finite mixture of other distributions.",
+      "functionName": "Mixture",
+      "variableTypes": ["mixed"],
+      "parameters": [
+        {
+          "name": "dists",
+          "title": "Component distributions",
+          "type": "distribution[]",
+          "defaultValue": [],
+          "required": true,
+          "description": "An array of distributions to mix.",
+          "detailedDescription": "The distributions that are combined in the mixture."
+        },
+        {
+          "name": "ps",
+          "title": "Probabilities",
+          "type": "double[]",
+          "defaultValue": [0.5, 0.5],
+          "required": true,
+          "description": "An array of probabilities for each component distribution.",
+          "detailedDescription": "The weights assigned to each component distribution, typically summing to 1."
+        }
+      ]
+    },
+    "Multinomial": {
+      "description": "A generalization of the binomial distribution to more than two outcomes.",
+      "functionName": "Multinomial",
+      "variableTypes": ["integer array"],
+      "parameters": [
+        {
+          "name": "n",
+          "title": "Number of trials",
+          "type": "int",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The total number of trials.",
+          "detailedDescription": "Represents the total number of independent trials conducted."
+        },
+        {
+          "name": "ps",
+          "title": "Probabilities",
+          "type": "double[]",
+          "defaultValue": [0.5, 0.5],
+          "required": true,
+          "description": "An array of probabilities for each category.",
+          "detailedDescription": "This parameter is an array where each entry represents the probability of selecting that category. The sum of the probabilities must be 1."
+        }
+      ]
+    },
+    "MultivariateBernoulli": {
+      "description": "A distribution over a vector of independent Bernoulli variables.",
+      "functionName": "MultivariateBernoulli",
+      "variableTypes": ["boolean array"],
+      "parameters": [
+        {
+          "name": "ps",
+          "title": "Probabilities",
+          "type": "double[]",
+          "defaultValue": [0.5, 0.5],
+          "required": true,
+          "description": "A vector of probabilities, one for each Bernoulli variable.",
+          "detailedDescription": "Each entry in the vector represents the probability of the corresponding Bernoulli variable being true.",
+          "minValue": 0,
+          "maxValue": 1
+        }
+      ]
+    },
+    "MultivariateGaussian": {
+      "description": "A multivariate Gaussian distribution with a full covariance matrix.",
+      "functionName": "MultivariateGaussian",
+      "variableTypes": ["vector"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean vector",
+          "type": "double[]",
+          "defaultValue": [0, 0],
+          "required": true,
+          "description": "The mean vector of the distribution.",
+          "detailedDescription": "Specifies the central point around which the distribution is centered."
+        },
+        {
+          "name": "cov",
+          "title": "Covariance matrix",
+          "type": "double[][]",
+          "defaultValue": [[1, 0], [0, 1]],
+          "required": true,
+          "description": "The covariance matrix of the distribution.",
+          "detailedDescription": "Defines the shape and orientation of the distribution in space, determining the correlation between dimensions."
+        }
+      ]
+    },
+    "Poisson": {
+      "description": "A distribution representing the number of events occurring in a fixed interval of time or space.",
+      "functionName": "Poisson",
+      "variableTypes": ["java.lang.Integer"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The average number of events in the given interval.",
+          "detailedDescription": "Defines the expected number of occurrences within the fixed interval."
+        }
+      ]
+    },
+    "RandomInteger": {
+      "description": "A uniform distribution over integers from 0 to n-1.",
+      "functionName": "RandomInteger",
+      "variableTypes": ["java.lang.Integer"],
+      "parameters": [
+        {
+          "name": "n",
+          "title": "Number of possible values",
+          "type": "int",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The upper limit of the range (exclusive).",
+          "detailedDescription": "The number of distinct integers that can be sampled, starting from 0."
+        }
+      ]
+    },
+    "TensorGaussian": {
+      "description": "A distribution over a tensor of independent Gaussian variables.",
+      "functionName": "TensorGaussian",
+      "variableTypes": ["tensor"],
+      "parameters": [
+        {
+          "name": "mu",
+          "title": "Mean",
+          "type": "double[]",
+          "defaultValue": [0, 0],
+          "required": true,
+          "description": "The mean of the distribution.",
+          "detailedDescription": "A tensor specifying the means for each dimension."
+        },
+        {
+          "name": "sigma",
+          "title": "Standard deviation",
+          "type": "double[]",
+          "defaultValue": [1, 1],
+          "required": true,
+          "description": "The standard deviation of the distribution.",
+          "detailedDescription": "A tensor specifying the standard deviations for each dimension.",
+          "minValue": 0
+        },
+        {
+          "name": "dims",
+          "title": "Dimensions",
+          "type": "int[]",
+          "defaultValue": [2, 2],
+          "required": true,
+          "description": "The dimensions of the tensor.",
+          "detailedDescription": "An array specifying the size of each dimension in the tensor."
+        }
+      ]
+    },
+    "TensorLaplace": {
+      "description": "A distribution over a tensor of independent Laplace variables.",
+      "functionName": "TensorLaplace",
+      "variableTypes": ["tensor"],
+      "parameters": [
+        {
+          "name": "location",
+          "title": "Location",
+          "type": "double[]",
+          "defaultValue": [0, 0],
+          "required": true,
+          "description": "The location parameter of the distribution.",
+          "detailedDescription": "A tensor specifying the location for each dimension."
+        },
+        {
+          "name": "scale",
+          "title": "Scale",
+          "type": "double[]",
+          "defaultValue": [1, 1],
+          "required": true,
+          "description": "The scale parameter of the distribution.",
+          "detailedDescription": "A tensor specifying the scale for each dimension.",
+          "minValue": 0
+        },
+        {
+          "name": "dims",
+          "title": "Dimensions",
+          "type": "int[]",
+          "defaultValue": [2, 2],
+          "required": true,
+          "description": "The dimensions of the tensor.",
+          "detailedDescription": "An array specifying the size of each dimension in the tensor."
+        }
+      ]
+    },
+    "Uniform": {
+      "description": "A continuous distribution where all outcomes in the interval [a, b] are equally likely.",
+      "functionName": "Uniform",
+      "variableTypes": ["java.lang.Double"],
+      "parameters": [
+        {
+          "name": "a",
+          "title": "Lower bound",
+          "type": "double",
+          "defaultValue": 0,
+          "required": true,
+          "description": "The lower bound of the distribution.",
+          "detailedDescription": "Represents the smallest possible value that can be sampled from the distribution."
+        },
+        {
+          "name": "b",
+          "title": "Upper bound",
+          "type": "double",
+          "defaultValue": 1,
+          "required": true,
+          "description": "The upper bound of the distribution.",
+          "detailedDescription": "Represents the largest possible value that can be sampled from the distribution."
+        }
+      ]
+    }
+  }
+}

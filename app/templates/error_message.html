@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+    <h1>Error Occurred</h1>
+
+    <div class="error-box">
+        <p><strong>An error occurred while compiling the WebPPL file:</strong></p>
+        <ul>
+            {% for line in error_message.split('\n') %}
+                {% if line.strip() != '' %}
+                    <li>{{ line }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <p><br>Please review the error above and make the necessary corrections. If you need further assistance, refer to the documentation.</p>
+
+    <a href="{{ url_for('configuration') }}" class="btn btn-primary">Go Back to Configuration</a>
+{% endblock %}

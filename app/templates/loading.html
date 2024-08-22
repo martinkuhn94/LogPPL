@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        .spinner {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+            margin: auto;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            // Use the Fetch API to trigger the process route
+            fetch(`{{ url_for('process', filename=filename, simulation_query=simulation_query, simulator_loops=simulator_loops, num_samples=num_samples) }}`)
+                .then(response => {
+                    // Once the process is done, redirect to the statistics view
+                    if (response.ok) {
+                        window.location.href = '{{ url_for("view_statistics") }}';
+                    } else {
+                        console.error('Error during processing');
+                        // You might want to show an error message or retry logic here
+                    }
+                });
+        };
+    </script>
+</head>
+<body>
+    <div class="spinner"></div>
+    <h2 style="text-align:center">Generating event logs, please wait...</h2>
+</body>
+</html>

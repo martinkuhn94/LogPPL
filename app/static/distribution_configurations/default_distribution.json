@@ -1,0 +1,6 @@
+{
+  "java.lang.Double": "Uniform",
+  "java.lang.Integer": "RandomInteger",
+  "java.lang.String": "Categorial",
+  "java.lang.Boolean": "Categorial"
+}

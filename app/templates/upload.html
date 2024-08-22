@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Upload Data Petri Net</h1>
+    <section id="intro">
+        <p>To start, upload an existing and valid Data Petri Net in the .pnml format. Please follow the instructions below to upload your file and begin your analysis.</p>
+    </section>
+        <div class="infobox">
+            <span class="info-icon icon"></span>
+            <strong>File Upload Guidelines</strong>
+
+                   <ul>
+                    <li>Your file must be in .pnml format.</li>
+                    <li>Ensure your variable types are defined accordingly.</li>
+                    <li>Ensure your that each numeric variable in the Data Petri Net contains the minValue and maxValue attributes for variable definition.</li>
+                    <li>If you encounter any issues, please check that your Data Petri Net is valid and conforms to the latest format specifications, which can be found <a href="https://www.pnml.org" target="_blank">here</a>.</li>
+                </ul>
+
+        </div>
+
+    <form action="/upload_dpn" method="post" enctype="multipart/form-data">
+        <label for="fileUpload">Select file:</label>
+        <input type="file" id="fileUpload" name="file" required>
+        <button type="submit" id="uploadButton" style="display: none;">Upload</button>
+    </form>
+       <style>
+   h2 {
+    margin-top: 25px;
+}
+   main{
+       padding: 60px;
+   }
+p{margin-bottom: 20px;}
+
+ul, ol {
+    padding-left: 40px;
+}
+
+
+ul li, ol li {
+    margin: 10px;
+}
+
+
+    </style>
+    <script>
+        document.getElementById('fileUpload').addEventListener('change', function() {
+            const uploadButton = document.getElementById('uploadButton');
+            if (this.files.length > 0) {
+                uploadButton.style.display = 'block';
+            } else {
+                uploadButton.style.display = 'none';
+            }
+        });
+    </script>
+{% endblock %}

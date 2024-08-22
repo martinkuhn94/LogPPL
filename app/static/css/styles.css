@@ -1,0 +1,304 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    height: 100%;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e1e1e1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures header is on top */
+}
+
+header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+/* Sidebar styles */
+nav {
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 2px solid #e1e1e1;
+    padding: 20px;
+    position: fixed;
+    top: 80px; /* Adjust based on header height */
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    height: calc(100vh - 80px); /* Full height minus header */
+    transition: transform 0.3s ease; /* Smooth transition for collapsing */
+}
+
+/* Remove bullet points from list items in sidebar */
+nav ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    display: block; /* Ensure links occupy full width */
+    padding: 10px; /* Space inside the link */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #e1e1e1; /* Light gray background on hover */
+}
+
+/* Center the heading in the sidebar */
+nav h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+
+/* Main content area */
+main {
+    margin-left: 280px; /* Adjust for sidebar width */
+    padding: 20px;
+    margin-top: 120px; /* Adjust for header height + top margin */
+    margin-bottom: 80px; /* Add bottom margin */
+    margin-right: 30px; /* Add right margin */
+    background-color: #ffffff;
+    overflow-y: auto; /* Allows scrolling for main content */
+    max-width: calc(100% - 290px); /* Adjust width to fit within remaining space, considering right margin */
+    transition: margin-left 0.3s ease, max-width 0.3s ease; /* Smooth transition */
+}
+
+
+/* Additional styling to avoid collapsing margins */
+main::after {
+    content: "";
+    display: block;
+    height: 1px; /* Ensures the margin-bottom is applied */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Primary button color */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 20px; /* Add bottom margin */
+    margin-right: 20px; /* Add right margin */
+    margin-left: 0; /* Remove left margin */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside the button */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color and scaling */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+button:active {
+    background-color: #004494; /* Even darker shade when clicked */
+    transform: scale(0.98); /* Slightly scale down on click */
+}
+
+button:disabled {
+    background-color: #c0c0c0; /* Disabled button color */
+    cursor: not-allowed; /* Indicate button is not clickable */
+    opacity: 0.6; /* Slightly transparent */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+        position: static;
+        border-right: none;
+        border-bottom: 2px solid #e1e1e1;
+        height: auto; /* Adjust height to fit content */
+        transform: translateX(0); /* Ensure it is fully visible */
+    }
+
+    main {
+        margin-left: 0;
+        max-width: calc(100% - 20px); /* Ensure full width minus right margin */
+        margin-top: 160px; /* Adjust for header height on smaller screens */
+        margin-right: 20px; /* Maintain right margin on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        position: static;
+        border-right: none;
+        border-bottom: 2px solid #e1e1e1;
+        display: none; /* Hide the sidebar on very small screens */
+    }
+
+    main {
+        margin-left: 0;
+        max-width: calc(100% - 20px); /* Ensure full width minus right margin */
+        margin-top: 60px; /* Adjust for header height on smaller screens */
+        margin-right: 20px; /* Maintain right margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+
+
+}
+
+/* Flexbox container for plots */
+.attribute-distributions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap as needed */
+}
+
+.plot-container {
+    flex: 1 1 calc(50% - 20px); /* Adjust width for responsive layout */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Space below each plot */
+    flex-direction: row;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+.home-link {
+    color: black;
+    text-decoration: none;
+}
+
+.home-link:visited {
+    color: black;
+}
+
+.home-link:hover {
+    color: black;
+}
+
+.home-link:active {
+    color: black;
+}
+
+
+.disabled-link {
+    color: gray;
+    pointer-events: none;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.chart-container {
+    width: 80%; /* Scale the chart to 80% of its parent container */
+    margin: 0 auto; /* Center the chart horizontally */
+    padding: 20px; /* Add padding around the chart */
+    height: auto; /* Allow the height to be automatically adjusted */
+    max-width: 100%; /* Ensure the width doesn't exceed 100% of the container */
+    position: relative; /* Ensure the canvas scales properly */
+}
+
+
+
+   h2 {
+    margin-top: 25px;
+}
+   main{
+       padding: 60px;
+   }
+p{margin-bottom: 20px;}
+/* Indent list items */
+ul, ol {
+    padding-left: 40px; /* Adjust the value to increase/decrease indentation */
+}
+
+/* Add space between list items */
+ul li, ol li {
+    margin: 10px; /* Adjust the value to increase/decrease space between items */
+}
+
+        .infobox {
+            margin: 50px;
+            position: relative;
+            padding: 20px 20px 20px 100px; /* space for the icon */
+            border: 2px solid #3498db; /* border color */
+            border-radius: 10px; /* rounded corners */
+            background-color: rgba(52, 152, 219, 0.5); /* 50% transparent background */
+            font-size: 16px; /* adjust text size as needed */
+            color: #333; /* text color */
+            max-width: 1600px; /* adjust width as needed */
+        }
+
+        .infobox .icon  {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            font-size: 60px;
+            color: #3498db; /* icon color */
+        }
+
+        .infobox .info-icon:before {
+            content: "\2139"; /* Unicode for info icon */
+        }
+         .infobox .book-icon:before {
+            content: "\1F4D8"; /* Unicode for info icon */
+        }
+
+.error-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+

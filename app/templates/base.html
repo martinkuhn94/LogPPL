@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Application{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='images/probability_logo.svg') }}" alt="Logo">
+        <h1>LogPPL</h1>
+    </header>
+    <nav>
+        <h2><a href="/" class="home-link">Home</a></h2>
+        <ul>
+            <li><a href="/upload_page">1. Upload</a></li>
+
+            {% if session.get('upload_complete') %}
+                <li><a href="/dpn_visualizer">2. Visualization</a></li>
+            {% else %}
+                <li><a href="#" class="disabled-link">2. Visualization</a></li>
+            {% endif %}
+
+            {% if session.get('upload_complete') %}
+                <li><a href="/configuration">3. Configuration</a></li>
+            {% else %}
+                <li><a href="#" class="disabled-link">3. Configuration</a></li>
+            {% endif %}
+
+            {% if session.get('configuration_complete') %}
+                <li><a href="/view_statistics">4. Result</a></li>
+            {% else %}
+                <li><a href="#" class="disabled-link">4. Result</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}DPN Visualizer{% endblock %}
+
+{% block content %}
+    <h1>Visualization</h1>
+    <p>For the visualization, the PM4Py visualizer for petri nets is used. The documentation can be found <a href="https://processintelligence.solutions/static/api/2.7.11/api.html#visualization-pm4py-vis" target="_blank">here</a>.</p>
+    {% if filename %}
+        <p><strong>Uploaded File:</strong> {{ filename }}</p>
+    {% else %}
+        <p><strong>No file uploaded yet.</strong></p>
+    {% endif %}
+    <div id="petriNetContainer" style="width: 100%; height: 600px; overflow: auto; border: 1px solid #ccc; display: flex; justify-content: center; align-items: center;">
+        <embed id="petriNetSvg" type="image/svg+xml" src="{{ url_for('static', filename='data/svg/' ~ svg_filename) }}" style="width: 100%; height: auto;" />
+    </div>
+    <div id="zoomControls">
+        <button onclick="zoomIn()">Zoom In</button>
+        <button onclick="zoomOut()">Zoom Out</button>
+        <button onclick="resetView()">Reset View</button>
+        <button onclick="goToNext()">Next</button>
+    </div>
+
+    <script>
+        let currentZoom = 1;
+
+        // Zoom In
+        function zoomIn() {
+            currentZoom += 0.1;
+            applyZoom();
+        }
+
+        // Zoom Out
+        function zoomOut() {
+            if (currentZoom > 0.2) {
+                currentZoom -= 0.1;
+                applyZoom();
+            }
+        }
+
+        // Reset View
+        function resetView() {
+            currentZoom = 1;
+            applyZoom();
+        }
+
+        // Apply the current zoom level to the SVG
+        function applyZoom() {
+            const svgEmbed = document.getElementById('petriNetSvg');
+            svgEmbed.style.transform = `scale(${currentZoom})`;
+            svgEmbed.style.transformOrigin = '50% 50%'; // Center the zoom
+        }
+
+        // Next button functionality
+        function goToNext() {
+            window.location.href = "{{ url_for('configuration') }}";
+        }
+
+        // Initialize Pan and Zoom after content is loaded
+        window.onload = function() {
+            // Apply initial zoom level
+            applyZoom();
+        };
+    </script>
+{% endblock %}

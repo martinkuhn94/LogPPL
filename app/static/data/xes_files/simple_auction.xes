@@ -1,0 +1,7656 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+<string key="origin" value="csv" />
+<trace>
+<string key="concept:name" value="1"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="25637.54475246183"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="25637.54475246183"/>
+<float key="o" value="67231.60317753"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="2"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96143.02306162812"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="96143.02306162812"/>
+<float key="o" value="67231.60317753"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="3"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99746.40710980544"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99746.40710980544"/>
+<float key="o" value="67231.60317753"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="4"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85168.62755982186"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="85168.62755982186"/>
+<float key="o" value="67231.60317753"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="5"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85168.62755982186"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="85168.62755982186"/>
+<float key="o" value="59495.86312444612"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="6"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="59495.86312444612"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="7"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="42025.33603464356"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="8"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="76198.79408984307"/>
+<float key="o" value="42025.33603464356"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="34015.70592882428"/>
+<float key="o" value="42025.33603464356"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="9"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="42025.33603464356"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="10"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="29970.47097516674"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="11"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="23326.220921364406"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="12"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="13"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="97465.73384345125"/>
+<float key="o" value="88780.23820442831"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="14"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60796.86890396605"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60796.86890396605"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="15"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="90437.85380460526"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="90437.85380460526"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="16"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52698.44631041134"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52698.44631041134"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="17"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48535.66856979596"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48535.66856979596"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="18"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="50238.23098787064"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="19"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="75937.84441585954"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="20"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="86350.02212436096"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="21"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60451.51381591318"/>
+<float key="o" value="87188.80437853176"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="22"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="87188.80437853176"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="23"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="77005.65062153588"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="24"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="77005.65062153588"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39618.43320534319"/>
+<float key="o" value="77005.65062153588"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="25"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="85776.74945163135"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39618.43320534319"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="26"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="72845.80257166977"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="72845.80257166977"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39618.43320534319"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="27"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99577.3142164745"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="99577.3142164745"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39618.43320534319"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="28"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39618.43320534319"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="29"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="79107.59580274031"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="30"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="83481.45152408206"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="31"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="79297.60208607184"/>
+<float key="o" value="11207.050278918374"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="32"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26242.744518800977"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="26242.744518800977"/>
+<float key="o" value="11207.050278918374"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="33"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15663.879469242991"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15663.879469242991"/>
+<float key="o" value="11207.050278918374"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="34"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="11207.050278918374"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="35"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="18506.19880677653"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="36"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60911.9653888839"/>
+<float key="o" value="54182.25478877181"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="37"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="54182.25478877181"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="38"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="91344.57605195447"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="39"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="88035.12675475875"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="40"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="81975.21787808799"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="41"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="54218.6075612479"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="42"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15665.037212540245"/>
+<float key="o" value="3772.756483612305"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="43"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="93889.27063164413"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="93889.27063164413"/>
+<float key="o" value="3772.756483612305"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="44"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="3772.756483612305"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="45"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="30054.836910990114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="46"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="37902.241434487085"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="47"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="46345.64687333837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="48"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="10390.349635572371"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="49"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="29150.98346763363"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="50"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="78850.19851295982"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="51"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47712.95101263293"/>
+<float key="o" value="2565.859056947639"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="52"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="2565.859056947639"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="53"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="50559.531174081254"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="54"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="50559.531174081254"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="69064.10475364861"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="55"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="50559.531174081254"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="56"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="51331.05417077357"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="57"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="48755.08439755776"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="58"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="59"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="7407.434624759501"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="60"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="6733.045679625493"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="61"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="9165.83050514752"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="62"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="9165.83050514752"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="63"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38818.44015313347"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="64"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="65"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="13221.558832818837"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="55725.233598250255"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="66"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="6269.054417228203"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="67"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40220.79029581487"/>
+<float key="o" value="87277.56204597885"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="68"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="67232.29245156006"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="67232.29245156006"/>
+<float key="o" value="87277.56204597885"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="69"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="93931.143788642"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="93931.143788642"/>
+<float key="o" value="87277.56204597885"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="70"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="93931.143788642"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="93931.143788642"/>
+<float key="o" value="83992.39515914644"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="71"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="93179.95990025763"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="93179.95990025763"/>
+<float key="o" value="83992.39515914644"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="72"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="83992.39515914644"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="73"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="30249.01635651258"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="74"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="70333.50197708103"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="75"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="4390.85445025289"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="76"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="82767.4561164355"/>
+<float key="o" value="4390.85445025289"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3089.8852932003783"/>
+<float key="o" value="4390.85445025289"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="77"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="35200.54635902488"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="35200.54635902488"/>
+<float key="o" value="4390.85445025289"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="78"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="4390.85445025289"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="79"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="40840.34876189666"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="80"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="50605.67656144872"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="81"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="97565.28679539984"/>
+<float key="o" value="14861.510053878546"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="82"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="14861.510053878546"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="83"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="54577.825213852346"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="84"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="54577.825213852346"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60855.587688837586"/>
+<float key="o" value="89057.24302457407"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="85"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="54577.825213852346"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="89057.24302457407"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="86"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="54577.825213852346"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="81193.83199779129"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="87"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="46857.34877497121"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="81193.83199779129"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="88"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="81193.83199779129"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="89"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="12368.851945589877"/>
+<float key="o" value="81193.83199779129"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="90"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="81193.83199779129"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="91"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="73184.6232559852"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="92"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="73184.6232559852"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="93"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52496.098704446405"/>
+<float key="o" value="67234.76968827056"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="94"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="18861.359546495125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="18861.359546495125"/>
+<float key="o" value="67234.76968827056"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="95"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="18861.359546495125"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="18861.359546495125"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="96"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="20818.250256731808"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="97"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="35164.6158566687"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="35164.6158566687"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="98"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="11100.828675779396"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11100.828675779396"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="99"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57148.9658514313"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57148.9658514313"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="100"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="44680.1183916832"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="44680.1183916832"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="101"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="102"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="57786.45552997221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="103"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="38634.9637283133"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="104"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="50681.784914231364"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="105"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="64731.78544158593"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="106"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="37436.38368758426"/>
+<float key="o" value="64731.78544158593"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="107"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="64731.78544158593"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="108"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="64240.07430589209"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="109"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="47072.61284868039"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="68822.052824839"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="110"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="48983.49942652527"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43742.612303198825"/>
+<float key="o" value="68822.052824839"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="111"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48983.49942652527"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48983.49942652527"/>
+<float key="o" value="58839.272672724575"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48983.49942652527"/>
+<float key="o" value="68822.052824839"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="112"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="58839.272672724575"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="68822.052824839"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="113"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="58839.272672724575"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="68822.052824839"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="114"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="58839.272672724575"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="115"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="58839.272672724575"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="60674.098034824994"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="116"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="27110.95611600427"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="60674.098034824994"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="117"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="27110.95611600427"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="76721.4904355782"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="118"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="27110.95611600427"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="36653.74189628634"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="119"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="3850.6559192990285"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14107.719045109323"/>
+<float key="o" value="36653.74189628634"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="120"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92886.0272785525"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92886.0272785525"/>
+<float key="o" value="3850.6559192990285"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="92886.0272785525"/>
+<float key="o" value="36653.74189628634"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="121"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46940.43351387547"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46940.43351387547"/>
+<float key="o" value="3850.6559192990285"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="46940.43351387547"/>
+<float key="o" value="36653.74189628634"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="122"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="3850.6559192990285"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="36653.74189628634"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="123"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="3850.6559192990285"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="124"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="55430.68838060119"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="125"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="20505.711492262857"/>
+<float key="o" value="50877.82217118406"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="126"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="59754.35122938342"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="59754.35122938342"/>
+<float key="o" value="50877.82217118406"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="127"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="59754.35122938342"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="59754.35122938342"/>
+<float key="o" value="3488.725754879218"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="128"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="54794.886432409796"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="54794.886432409796"/>
+<float key="o" value="3488.725754879218"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="129"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="53561.78099936486"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="53561.78099936486"/>
+<float key="o" value="3488.725754879218"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="130"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="78577.18034767614"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="78577.18034767614"/>
+<float key="o" value="3488.725754879218"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="131"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="73797.47946872242"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="73797.47946872242"/>
+<float key="o" value="3488.725754879218"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="132"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="73797.47946872242"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="73797.47946872242"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="133"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="74914.87284843498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="74914.87284843498"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="134"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="91386.38197731279"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="91386.38197731279"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="135"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="50865.86666612181"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="50865.86666612181"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="136"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26928.811478152293"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="26928.811478152293"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="137"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="78573.6191122699"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="78573.6191122699"/>
+<float key="o" value="49462.207413633805"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="138"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="78573.6191122699"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="78573.6191122699"/>
+<float key="o" value="78374.73162417099"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="139"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="5842.239707721975"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="5842.239707721975"/>
+<float key="o" value="78374.73162417099"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="140"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57174.64376713219"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57174.64376713219"/>
+<float key="o" value="78374.73162417099"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="141"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57174.64376713219"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57174.64376713219"/>
+<float key="o" value="9221.551672672402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="142"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="93519.55244116079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="93519.55244116079"/>
+<float key="o" value="9221.551672672402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="143"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31165.77669294649"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31165.77669294649"/>
+<float key="o" value="9221.551672672402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="144"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31165.77669294649"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31165.77669294649"/>
+<float key="o" value="23248.40399070476"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="145"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="14334.43249167572"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="14334.43249167572"/>
+<float key="o" value="23248.40399070476"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="146"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="23248.40399070476"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="147"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="32959.007299062316"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="148"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="92478.97545413817"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="149"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="30044.822624116296"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="150"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="28570.924919457586"/>
+<float key="o" value="97571.10793883399"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="151"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="97571.10793883399"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="152"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="87645.60526502825"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="153"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="18710.369426276753"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="154"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="25832.141296572496"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="155"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="30047.16639494196"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="156"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="98210.1684184061"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="157"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="79647.89589445612"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="158"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="72225.6372066248"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="159"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="45345.23645911177"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="160"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="31694.54943454886"/>
+<float key="o" value="86912.50410783826"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="161"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22161.541664695305"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="22161.541664695305"/>
+<float key="o" value="86912.50410783826"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="162"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="85092.16693134447"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="85092.16693134447"/>
+<float key="o" value="86912.50410783826"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="163"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3288.9303336628427"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="3288.9303336628427"/>
+<float key="o" value="86912.50410783826"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="164"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="86912.50410783826"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="165"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="72094.69522670592"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="166"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="49224.362664705244"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="167"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="88371.64990233142"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="168"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="76368.6699103862"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="169"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="70500.57766245885"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="170"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39761.9390311678"/>
+<float key="o" value="12325.874217849963"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="171"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="64216.316780053305"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="64216.316780053305"/>
+<float key="o" value="12325.874217849963"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="172"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="64216.316780053305"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="64216.316780053305"/>
+<float key="o" value="85620.72387023427"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="173"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15576.313683698007"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15576.313683698007"/>
+<float key="o" value="85620.72387023427"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="174"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15967.972925256068"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15967.972925256068"/>
+<float key="o" value="85620.72387023427"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="175"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="15967.972925256068"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15967.972925256068"/>
+<float key="o" value="85122.02873598553"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="176"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="85122.02873598553"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="177"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="29352.550680911627"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="178"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="20207.81409936263"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="179"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="20207.81409936263"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="22699.36336743805"/>
+<float key="o" value="20887.275327347044"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="180"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="20207.81409936263"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="20887.275327347044"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="181"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="20207.81409936263"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="182"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="79359.85343455692"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="183"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="76633.15811045936"/>
+<float key="o" value="94668.48872524343"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="184"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="9294.34774611695"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="9294.34774611695"/>
+<float key="o" value="94668.48872524343"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="185"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="9294.34774611695"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="9294.34774611695"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="186"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="47968.41751809255"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="47968.41751809255"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="187"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95338.65054172414"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95338.65054172414"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="188"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95338.65054172414"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95338.65054172414"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11585.503788508844"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="189"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="66750.95559147559"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="66750.95559147559"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11585.503788508844"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="190"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26399.4626212521"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="26399.4626212521"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11585.503788508844"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="191"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11585.503788508844"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="192"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11812.411327468886"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="193"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="34704.21649298114"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="194"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="26614.655067436655"/>
+<float key="o" value="67670.00022421054"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="195"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="33336.28980365884"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="33336.28980365884"/>
+<float key="o" value="67670.00022421054"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="196"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="17156.002770927993"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="17156.002770927993"/>
+<float key="o" value="67670.00022421054"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="197"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="17156.002770927993"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="17156.002770927993"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="198"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71179.53241898403"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71179.53241898403"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="199"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="30693.790224495275"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="30693.790224495275"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="200"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="11372.297407779697"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="11372.297407779697"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="201"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="8385.13721765799"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="8385.13721765799"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="202"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81488.40883507428"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81488.40883507428"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="203"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="62394.72367784793"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="62394.72367784793"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="204"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="70299.51907292791"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="70299.51907292791"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="205"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="63864.1290889443"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="63864.1290889443"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="206"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="63864.1290889443"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="63864.1290889443"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="21914.61804862078"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="207"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="86057.38773345857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="86057.38773345857"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="21914.61804862078"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="208"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="86057.38773345857"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="86057.38773345857"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="4403.150854977999"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="209"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="4403.150854977999"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="210"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29243.01363956927"/>
+<float key="o" value="64499.029398822684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="211"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29243.01363956927"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="212"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="29243.01363956927"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="213"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="29243.01363956927"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="214"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29243.01363956927"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="215"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="96805.01234000079"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="216"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="55370.887173217074"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="217"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="65035.1987739217"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="218"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="91917.34792616994"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="219"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="55102.96660740759"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="220"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="98203.93403817873"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="221"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="14162.719700443206"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="222"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="9102.570567548373"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="223"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="9102.570567548373"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="62655.82074130733"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="224"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="38462.121616124765"/>
+<float key="o" value="92581.16326450132"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="225"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="92581.16326450132"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="226"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="22851.10833648194"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="227"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="77640.69116537551"/>
+<float key="o" value="8819.401961692174"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="228"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="8819.401961692174"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="229"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="49698.25292672585"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="230"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="94640.17542983258"/>
+<float key="o" value="28220.408004330187"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="231"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="13616.679595136839"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="13616.679595136839"/>
+<float key="o" value="28220.408004330187"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="232"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="5397.3396971987995"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="5397.3396971987995"/>
+<float key="o" value="28220.408004330187"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="233"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="5397.3396971987995"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="5397.3396971987995"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="234"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46560.68085551541"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="46560.68085551541"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="235"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="65930.35274273322"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="65930.35274273322"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="236"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="10990.961981513636"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="10990.961981513636"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="237"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="19732.25539249408"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19732.25539249408"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="238"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="6665.567998851718"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="6665.567998851718"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="239"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="87528.93583113224"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="240"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="52860.94819450635"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="241"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="58961.24574346238"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="242"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71636.70231851589"/>
+<float key="o" value="23312.08448050499"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="243"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="23312.08448050499"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="244"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="66152.36704133986"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="245"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="4828.943260496854"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="246"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="44801.15223987366"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="247"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="44801.15223987366"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="69555.70037156684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="248"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="44801.15223987366"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="69555.70037156684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="249"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="804.3752871631948"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="69555.70037156684"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="250"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="804.3752871631948"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="47637.87677540641"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="251"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="804.3752871631948"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="47637.87677540641"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="252"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="804.3752871631948"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="99819.12034291221"/>
+<float key="o" value="64757.10929977107"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="253"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="804.3752871631948"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="64757.10929977107"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="254"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="22150.907450650004"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="64757.10929977107"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="255"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="94161.67827349681"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="94161.67827349681"/>
+<float key="o" value="64757.10929977107"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="256"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="48231.47584175915"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="64757.10929977107"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="257"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="48231.47584175915"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="89640.32773965297"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="258"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="21906.467052112323"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="89640.32773965297"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="259"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="89640.32773965297"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="260"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="57421.442460881524"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="261"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="6880.887078977005"/>
+<float key="o" value="96889.61676204717"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="262"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="64337.93132756462"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="64337.93132756462"/>
+<float key="o" value="96889.61676204717"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="263"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="28372.932934606786"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="95143.86774096475"/>
+<float key="o" value="96889.61676204717"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="264"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="28372.932934606786"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="96889.61676204717"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="265"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="89258.33322743875"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="96889.61676204717"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="266"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="89258.33322743875"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="267"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="73144.14986672357"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="268"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="17249.72788265311"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="269"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="17249.72788265311"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="17446.29040593806"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="270"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="81412.22370826575"/>
+<float key="o" value="17249.72788265311"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="271"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="29107.019389118483"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29107.019389118483"/>
+<float key="o" value="17249.72788265311"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="272"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="29107.019389118483"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29107.019389118483"/>
+<float key="o" value="33434.09958809649"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="273"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="8605.525971461315"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="8605.525971461315"/>
+<float key="o" value="33434.09958809649"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="274"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="8605.525971461315"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="8605.525971461315"/>
+<float key="o" value="56005.25906490699"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="275"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="50145.794761006066"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="50145.794761006066"/>
+<float key="o" value="56005.25906490699"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="276"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43820.26043473681"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43820.26043473681"/>
+<float key="o" value="56005.25906490699"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="277"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="43820.26043473681"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="43820.26043473681"/>
+<float key="o" value="84196.22762583483"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="278"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="84196.22762583483"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="279"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="29647.73266220162"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="280"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="281"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="92101.05419779645"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12941.00612946687"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="282"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12941.00612946687"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="283"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="70880.73437598317"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="284"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="51527.13529376649"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="285"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="51527.13529376649"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="286"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="51527.13529376649"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="287"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="96963.64305496459"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="288"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="58942.62200783402"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="289"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="65555.24843368026"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="290"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="91179.19415376974"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="291"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="72816.61888333324"/>
+<float key="o" value="47200.63432878059"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="292"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="47200.63432878059"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="293"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="83009.9421382871"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="294"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="74548.83177809253"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="295"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="26790.571018193197"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="26790.571018193197"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="296"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="36042.17812508794"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="36042.17812508794"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="297"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="30001.591784429405"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="30001.591784429405"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="298"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="25529.119140908497"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="25529.119140908497"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="299"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="79763.26491184467"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="300"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="28287.893421330624"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="301"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52899.01239853132"/>
+<float key="o" value="98198.83385141673"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="302"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88527.01654135787"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="88527.01654135787"/>
+<float key="o" value="98198.83385141673"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="303"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88527.01654135787"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="88527.01654135787"/>
+<float key="o" value="1082.1545319212423"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="304"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="1082.1545319212423"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="305"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="66352.48099288151"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="306"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="57453.13694042931"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="307"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="38342.419594025625"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="308"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="75052.08701534792"/>
+<float key="o" value="78671.72470788266"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="309"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="18527.443689235977"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="18527.443689235977"/>
+<float key="o" value="78671.72470788266"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="310"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="64689.75721821657"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="64689.75721821657"/>
+<float key="o" value="78671.72470788266"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="311"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="78671.72470788266"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="312"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="74126.55822827594"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="313"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="54719.15183834979"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="314"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="54719.15183834979"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12670.082925801562"/>
+<float key="o" value="54719.15183834979"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="315"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="21949.08195706684"/>
+<float key="o" value="41526.838538701006"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12670.082925801562"/>
+<float key="o" value="41526.838538701006"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="316"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="41526.838538701006"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12670.082925801562"/>
+<float key="o" value="41526.838538701006"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="317"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="16706.54900737194"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="12670.082925801562"/>
+<float key="o" value="16706.54900737194"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="318"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="16706.54900737194"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="10169.147240910315"/>
+<float key="o" value="16706.54900737194"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="319"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="13569.77709609377"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="10169.147240910315"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="320"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="10169.147240910315"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="321"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="72777.63181388401"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="322"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="40479.90636747001"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="323"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="46726.21815385862"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="46726.21815385862"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="324"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="39491.59650048564"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="325"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="52251.595828452046"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="326"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="50612.68421963343"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="327"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69663.13892960767"/>
+<float key="o" value="10390.108163394896"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="328"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="25648.25208999195"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="25648.25208999195"/>
+<float key="o" value="10390.108163394896"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="329"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="25648.25208999195"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="25648.25208999195"/>
+<float key="o" value="88807.70941230771"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="330"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52397.6371826784"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52397.6371826784"/>
+<float key="o" value="88807.70941230771"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="331"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="71522.77342445825"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="71522.77342445825"/>
+<float key="o" value="88807.70941230771"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="332"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="88807.70941230771"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="333"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="10845.26375118664"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="334"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="38183.52929231865"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="335"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="48355.20278489973"/>
+<float key="o" value="68321.19506851475"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="336"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="5664.7876066923345"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="5664.7876066923345"/>
+<float key="o" value="68321.19506851475"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="337"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="5664.7876066923345"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="5664.7876066923345"/>
+<float key="o" value="77823.07426238884"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="338"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="77823.07426238884"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="339"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="92103.88302303215"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="340"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="66240.06931452693"/>
+<float key="o" value="52363.331137031884"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="341"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="52363.331137031884"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="342"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="343"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="68697.23117035229"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="6201.454360570801"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="344"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="25768.19351075432"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="25768.19351075432"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="345"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="91269.25284147525"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="91269.25284147525"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="346"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="56490.27264273256"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="56490.27264273256"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="347"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39431.28987450564"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="39431.28987450564"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="348"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="39431.28987450564"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="39431.28987450564"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="349"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="51460.65724928441"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="350"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="80730.20081593507"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="80730.20081593507"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="351"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="48675.937591111084"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="48675.937591111084"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="352"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="18860.51794099588"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="18860.51794099588"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="353"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="15707.04577747648"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="19428.48770847536"/>
+<float key="o" value="15707.04577747648"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="354"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="15707.04577747648"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="872.4381818702165"/>
+<float key="o" value="15707.04577747648"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="355"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="41745.10710801498"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="872.4381818702165"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="356"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="872.4381818702165"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="357"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15309.459990553998"/>
+<float key="o" value="26996.24046433562"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="358"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="15309.459990553998"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="359"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="30291.284217131142"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="360"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69238.55093672912"/>
+<float key="o" value="99172.32458277611"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="361"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="69238.55093672912"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="362"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="16007.700068192144"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="363"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="16007.700068192144"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="364"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="16007.700068192144"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="365"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="dec"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="16007.700068192144"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="366"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="88770.25559299851"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="367"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="88077.64213255375"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="88077.64213255375"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="368"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="70630.20648101385"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="70630.20648101385"/>
+<float key="o" value="31653.529575975383"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="369"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="70630.20648101385"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="70630.20648101385"/>
+<float key="o" value="21644.342974657116"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="370"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3731.7133678927084"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="3731.7133678927084"/>
+<float key="o" value="21644.342974657116"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="371"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3731.7133678927084"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="3731.7133678927084"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="372"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="44766.0840298846"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="44766.0840298846"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="373"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="24829.4147370131"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="24829.4147370131"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="374"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="16718.861516678542"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="16718.861516678542"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="375"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="66954.18621341199"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="66954.18621341199"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="376"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="4129.773347150145"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="4129.773347150145"/>
+<float key="o" value="40930.28803153369"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="377"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="4129.773347150145"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="4129.773347150145"/>
+<float key="o" value="98676.54197213851"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="378"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="349.4951015703851"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="349.4951015703851"/>
+<float key="o" value="98676.54197213851"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="379"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="53808.83140238874"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="53808.83140238874"/>
+<float key="o" value="98676.54197213851"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="380"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="98676.54197213851"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="381"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="62596.77746392191"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="382"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="57162.06040994178"/>
+<float key="o" value="64241.57666984998"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="383"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60810.559384185224"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60810.559384185224"/>
+<float key="o" value="64241.57666984998"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="384"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="60810.559384185224"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="60810.559384185224"/>
+<float key="o" value="64876.0325845825"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="385"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="65812.55327989363"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="65812.55327989363"/>
+<float key="o" value="64876.0325845825"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="386"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3270.0303898672178"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="3270.0303898672178"/>
+<float key="o" value="64876.0325845825"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="387"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="3270.0303898672178"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="3270.0303898672178"/>
+<float key="o" value="53003.002322788765"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="388"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="49676.267718324874"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="49676.267718324874"/>
+<float key="o" value="53003.002322788765"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="389"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="49676.267718324874"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="49676.267718324874"/>
+<float key="o" value="5720.6530917726095"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="390"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="52358.09348678957"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="52358.09348678957"/>
+<float key="o" value="5720.6530917726095"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="391"/>
+<event>
+<string key="concept:name" value="init"/>
+<float key="t" value="0"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="bid"/>
+<float key="t" value="29584.56642891063"/>
+<float key="o" value="0"/>
+</event>
+<event>
+<string key="concept:name" value="thresh"/>
+<float key="t" value="29584.56642891063"/>
+<float key="o" value="5720.6530917726095"/>
+</event>
+</trace>
+</log>

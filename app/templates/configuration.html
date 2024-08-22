@@ -1,0 +1,424 @@
+{% extends "base.html" %}
+
+{% block title %}Configuration{% endblock %}
+
+{% block content %}
+    <h1>Configuration</h1>
+
+    {% if filename %}
+        <p><strong>Uploaded File:</strong> {{ filename }}</p>
+    {% else %}
+        <p><strong>No file uploaded yet.</strong></p>
+    {% endif %}
+
+<form id="configurationForm" action="/generate" method="post" onsubmit="return handleFormSubmit()">
+    <div>
+        <div class="heading-with-info">
+            <h3>Scheduler Configuration</h3>
+            <span class="info-icon" onclick="toggleInfoBox('configurationInfo')">?</span>
+            <div id="configurationInfo" class="info-box">
+                <p>For each prime variable, the distributions at the firings of the respective transitions can to be defined. It is possible to select from various distributions</p>
+            </div>
+        </div>
+        {% for key, details in nested_dict.items() %}
+            {% if key != 'variables' %}
+                <div class="event-config">
+                    <h4>Event: {{ details.event }}</h4>
+                    <div style="font-style: italic">
+                        <label for="{{ key }}_guard">Guard:</label>
+                        <span id="{{ key }}_guard">{{ details.guard }}</span>
+                    </div>
+                    <div id="{{ key }}_variables" class="variables-section">
+                        {% for var in details.relevant_variables %}
+                            <div class="variable-item" id="{{ details.event }}_{{ var }}">
+                                <span>{{ var }}: </span>
+                                <select name="{{ key }}_{{ var }}" id="{{ key }}_{{ var }}_select" class="dist_select" onchange="showParameters('{{ key }}', '{{ var | escape_single_quote }}')">
+                                    <option value="" disabled selected>Select a distribution</option>
+                                    {% set var_type = nested_dict['variables'].get(var, {}).get('type') %}
+                                    {% for dist_name, dist_details in distributions.distributions.items() %}
+                                        {% if var_type in dist_details.variableTypes %}
+                                            <!--<option value="{{ dist_name }}">{{ dist_name }}</option>-->
+                                            <option value="{{ dist_name }}"
+                                                {% if default_distributions[var_type] == dist_name %}
+                                                    selected
+                                                {% endif %}
+                                            >
+                                                {{ dist_name }}
+                                            </option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                                <div id="{{ key }}_{{ var }}_distdesc" class="distribution_desc">
+
+                                    </div>
+                                  <div id="{{ key }}_{{ var }}_parameters" class="parameter-set">
+
+                                    </div>
+                            </div>
+                            <!-- Parameter Selection -->
+
+
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+        <div class="heading-with-info">
+            <h3>Queries</h3>
+            <span class="info-icon" onclick="toggleInfoBox('queriesInfo')">?</span>
+            <div id="queriesInfo" class="info-box">
+                <p>Select the type of query:
+                <br><strong>Specific Event:</strong> Checks whether a particular event can be reached.
+                <br><strong>Advanced Queries:</strong> Allows you to define and execute custom WebPPL queries. Non existing variables will be evaluated with logical false.
+                <br><strong>Final Marking:</strong> Evaluates how often the final marking is reached.
+                </p>
+            </div>
+        </div>
+        <div>
+            <input type="radio" id="eventToggle" name="queryToggle" value="event" onclick="toggleDropdowns()">
+            <label for="eventToggle">Specific Event</label>
+            <input type="radio" id="advancedQueriesToggle" name="queryToggle" value="advanced" onclick="toggleDropdowns()">
+            <label for="advancedQueriesToggle">Definition of advanced queries</label>
+            <input type="radio" id="finalMarkingToggle" name="queryToggle" value="finalMarking" onclick="toggleDropdowns()">
+            <label for="finalMarkingToggle">Final Marking</label>
+        </div>
+
+        <div id="eventDropdown" style="display:none;">
+            <label for="specificEvent">Specific Event:</label>
+            <select id="specificEvent" name="specificEvent">
+            {% for event, details in events.items() %}
+                <option value="{{ event }}">{{ event }}: {{ details }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div id="queryCommentsDiv" style="display:none;">
+            <textarea id="queryComments" name="queryComments" placeholder="Enter your valid WebPPL code..." rows="4" cols="50"></textarea>
+        </div>
+
+        <div id="finalMarkingDiv" style="display:none;">
+            <p>The final marking defines the end place in a DPN.</p>
+        </div>
+
+        <div class="heading-with-info">
+            <h3>Sampling</h3>
+            <span class="info-icon" onclick="toggleInfoBox('samplingInfo')">?</span>
+            <div id="samplingInfo" class="info-box">
+                <p>Configure the sampling parameters for the simulation. <br><strong>Simulator Loop:</strong> controls the maximum number of firings per simulation run. <br><strong>Number of Samples</strong> defines how many traces should be simulated </p>
+            </div>
+        </div>
+        <div>
+            <label for="simulatorLoops">Simulator Loops:</label>
+            <input type="number" id="simulatorLoops" name="simulatorLoops" required>
+        </div>
+        <div>
+            <label for="numSamples">Number of Samples:</label>
+            <input type="number" id="numSamples" name="numSamples" required>
+        </div>
+
+        <div id="buttonContainer">
+            <button type="submit" id="startGenerationButton">
+                Start Generation
+                <span id="loadingSpinner" class="spinner" style="display: none; margin-left: 10px;">
+                    &#x21BB;
+                </span>
+            </button>
+        </div>
+
+        <div id="showResultsContainer" style="display: none;">
+            <button type="button" id="showResultsButton" onclick="showResults()">Show Results</button>
+        </div>
+    </form>
+
+    <style>
+        .spinner {
+            display: inline-block;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+      /* Infobox Style */
+        .infobox {
+            position: relative;
+            padding: 20px 20px 20px 50px; /* space for the icon */
+            border: 2px solid #3498db; /* border color */
+            border-radius: 10px; /* rounded corners */
+            background-color: rgba(52, 152, 219, 0.5); /* 50% transparent background */
+            font-size: 16px; /* adjust text size as needed */
+            color: #333; /* text color */
+            max-width: 400px; /* adjust width as needed */
+        }
+
+        .infobox .info-icon {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #3498db; /* icon color */
+        }
+
+        .infobox .info-icon:before {
+            content: "\2139"; /* Unicode for info icon */
+        }
+
+        /* Heading with Info Icon */
+        .heading-with-info {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+        }
+
+        .heading-with-info .info-icon {
+            font-size: 14px;
+            margin-left: 8px;
+            cursor: pointer;
+            color: #007BFF;
+            border: 1px solid #007BFF;
+            border-radius: 50%;
+            padding: 5px;
+            height: 20px;
+            width: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        /* Infobox related to the heading */
+        .info-box {
+            display: none;
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: #d0eaff; /* Light blue background */
+            border: 1px solid #b0c4de; /* A slightly darker blue border */
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            z-index: 1000;
+        }
+
+        .info-box p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Additional Styles */
+        .variable-item {
+            padding-left: 20px;
+            margin-bottom: 20px; /* Adds padding to the left */
+        }
+
+        .distribution_desc {
+            font-style: italic;
+        }
+
+    </style>
+    <script>
+        function showParametersoo(eventKey, varName) {
+            // Hide all parameter sets for this variable
+            var parameterSets = document.querySelectorAll(`#${eventKey}_${varName}_parameters .parameter-set`);
+            parameterSets.forEach(function(set) {
+                set.style.display = 'none';
+            });
+
+            // Show the selected parameter set
+            var selectElement = document.getElementById(`${eventKey}_${varName}_select`);
+            var selectedDistribution = selectElement.value;
+            var selectedParameterSet = document.getElementById(`${eventKey}_${varName}_${selectedDistribution}_parameters`);
+            if (selectedParameterSet) {
+                selectedParameterSet.style.display = 'block';
+            }
+        }
+
+
+
+
+
+
+        function toggleVariables(variablesId) {
+            var variablesSection = document.getElementById(variablesId);
+            if (variablesSection.style.display === "block") {
+                variablesSection.style.display = "none";
+            } else {
+                variablesSection.style.display = "block";
+            }
+        }
+
+        function toggleDropdowns() {
+            var eventDropdown = document.getElementById("eventDropdown");
+            var textAreaDiv = document.getElementById("queryCommentsDiv");
+            var finalMarkingDiv = document.getElementById("finalMarkingDiv");
+            var eventToggle = document.getElementById("eventToggle");
+            var advancedQueriesToggle = document.getElementById("advancedQueriesToggle");
+            var finalMarkingToggle = document.getElementById("finalMarkingToggle");
+
+            eventDropdown.style.display = "none";
+            textAreaDiv.style.display = "none";
+            finalMarkingDiv.style.display = "none";
+
+            if (eventToggle.checked) {
+                eventDropdown.style.display = "block";
+            } else if (advancedQueriesToggle.checked) {
+                textAreaDiv.style.display = "block";
+            } else if (finalMarkingToggle.checked) {
+                finalMarkingDiv.style.display = "block";
+            }
+        }
+
+        function handleFormSubmit() {
+            var queryToggle = document.querySelector('input[name="queryToggle"]:checked');
+            var textArea = document.getElementById("queryComments");
+            var simulatorLoops = document.getElementById("simulatorLoops").value;
+            var numSamples = document.getElementById("numSamples").value;
+
+            if (!queryToggle) {
+                alert("Please select an option for queries.");
+                return false;
+            }
+
+            if (queryToggle.value === "advanced") {
+                if (textArea.value.trim() === "") {
+                    alert("Please enter a query in the text area.");
+                    return false;
+                }
+            }
+
+            var startButton = document.getElementById("startGenerationButton");
+            var loadingSpinner = document.getElementById("loadingSpinner");
+            startButton.disabled = true;
+            loadingSpinner.style.display = "inline-block";
+
+            return true;
+        }
+
+        function showResults() {
+            window.location.href = "{{ url_for('view_statistics') }}";
+        }
+
+        function toggleInfoBox(infoBoxId) {
+            var infoBox = document.getElementById(infoBoxId);
+            if (infoBox.style.display === "block") {
+                infoBox.style.display = "none";
+            } else {
+                infoBox.style.display = "block";
+            }
+        }
+
+ function populateDistributionInfo(key, variable, distributionData) {
+    // Clear the description div
+    const descriptionDivId = `${key}_${variable}_distdesc`;
+    const descriptionDiv = document.getElementById(descriptionDivId);
+    if (descriptionDiv) {
+        descriptionDiv.innerHTML = '';
+        // Add the description text
+        const descriptionText = document.createElement('p');
+        descriptionText.innerText = distributionData.description;
+        descriptionDiv.appendChild(descriptionText);
+    }
+
+    // Clear the parameters div
+    const parametersDivId = `${key}_${variable}_parameters`;
+    const parametersDiv = document.getElementById(parametersDivId);
+    if (parametersDiv) {
+        parametersDiv.innerHTML = '';
+
+        // Generate input fields for each parameter
+        distributionData.parameters.forEach(param => {
+            // Create label for the parameter
+            const paramLabel = document.createElement('label');
+            paramLabel.setAttribute('for', param.name);
+            paramLabel.setAttribute('title', param.description);
+            paramLabel.innerText = `${param.title}: `;
+
+            // Create input field
+            const paramInput = document.createElement('input');
+
+            // Handle 'double' and 'int' types differently
+            if (param.type === 'double') {
+                paramInput.type = 'number';
+                paramInput.step = 'any'; // Allows decimal values like 0.56, 0.576
+            } else if (param.type === 'int') {
+                paramInput.type = 'number';
+                paramInput.step = '1'; // Ensures only integers are accepted
+            } else {
+                paramInput.type = 'text'; // Fallback for other types
+            }
+
+            paramInput.name = `${key}_${variable}_${distributionData.functionName}_${param.name}`;
+            paramInput.required = param.required;
+            paramInput.min = param.minValue !== undefined ? param.minValue : '';
+            paramInput.max = param.maxValue !== undefined ? param.maxValue : '';
+            paramInput.defaultValue = param.defaultValue;
+            paramInput.title = `${param.title} (${param.name})\n${param.detailedDescription}\n(Type: ${param.type}, Min: ${param.minValue}, Max: ${param.maxValue}, Default: ${param.defaultValue})`;
+
+            // Add label and input to the parameters div
+            parametersDiv.appendChild(paramLabel);
+            parametersDiv.appendChild(paramInput);
+            parametersDiv.appendChild(document.createElement('br')); // Line break for spacing
+        });
+    }
+}
+
+
+function showParameters(key, variable) {
+    console.log("test");
+    // Get the select element
+    var selectElement = document.getElementById(key + "_" + variable + "_select");
+
+    // Get the selected value
+    var selectedValue = selectElement.value;
+
+    // Get the parameters div
+    var parametersDiv = document.getElementById(key + "_" + variable + "_parameters");
+
+    // Clear the parameters div
+    parametersDiv.innerHTML = '';
+
+    // Make an API call to get the data for the selected distribution
+    // Assuming you have an API endpoint that accepts the selected value
+    fetch('/get_distribution_config?distribution=' + selectedValue)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            // Create a text field
+            var textField = document.createElement('input');
+            textField.type = 'text';
+            textField.name = key + '_' + variable + '_textfield';
+            textField.value = data; // Assuming the API returns the value for the text field
+
+            // Append the text field to the parameters div
+            parametersDiv.appendChild(textField);
+            populateDistributionInfo(key, variable,data);
+        })
+        .catch(error => {
+            console.error('Error fetching parameters:', error);
+        });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all the <select> elements with the specific name pattern
+    const selectElements = document.querySelectorAll(".dist_select");
+
+    selectElements.forEach(selectElement => {
+        const idParts = selectElement.id.split('_');
+        const key = idParts[0];
+        const variable = idParts.slice(1, -1).join('_'); // Join everything except the last part which is "select"
+
+        // Call the showParameters function for each select element
+        showParameters(key, variable);
+    });
+});
+</script>
+
+{% endblock %}
