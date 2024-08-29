@@ -18,24 +18,7 @@ After installing and starting [Docker](https://www.docker.com/get-started/), it 
 1. Build the docker container: `docker build -t icpm_demo .`
 2. Run the container in interactive mode: `docker run -p 5000:5000 icpm_demo`
 3. One can now run the tool in the browser by following the local host link provided in the terminal.
-```
-python examples/example_create_webppl.py
-```
-The result webppl file is then found in `examples/webppl_files/simple_auction.wppl`:
-```
-cat examples/webppl_files/simple_auction.wppl
-```
 
-Similarly, to produce an XES event log for our running example, it suffices to run the following script in the docker container:
-```
-python examples/example_create_event_log.py
-```
-The resulting XES file can be accessed as follows:
-```
-cat examples/xes_files/simple_auction.xes
-```
-
-To exit the docker container, it suffices to run `exit`.
 
 ## Installation without Docker
 To use the DPN to WebPPL Converter, ensure that you have Python 3.x installed on your system. Follow these steps to set up the converter:
