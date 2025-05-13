@@ -2,12 +2,10 @@
     {
         "dist": {
             "probs": [
-                0.796,
-                0.204
+                1
             ],
             "support": [
-                true,
-                false
+                true
             ]
         }
     }

@@ -2,20 +2,20 @@ var init = function(){
 globalStore.countEnabled = 0;
 globalStore.trace = "";
 globalStore.n1 = 1;
-globalStore.n3 = 0;
-globalStore.n2 = 0;
 globalStore.n4 = 0;
+globalStore.n2 = 0;
+globalStore.n3 = 0;
 
 globalStore.enabled_n5 = false; // init
+globalStore.enabled_n9 = false; // thresh
 globalStore.enabled_n7 = false; // dec
 globalStore.enabled_n6 = false; // bid
-globalStore.enabled_n9 = false; // thresh
 globalStore.enabled_n8 = false; // expire
 
 globalStore.fired_n5 = 0;
+globalStore.fired_n9 = 0;
 globalStore.fired_n7 = 0;
 globalStore.fired_n6 = 0;
-globalStore.fired_n9 = 0;
 globalStore.fired_n8 = 0;
 
 globalStore.vars = { t : {'maxValue': 100000.0, 'minValue': 0.0, 'type': 'java.lang.Double'}, o : {'maxValue': 100000.0, 'minValue': 0.0, 'type': 'java.lang.Double'} };
@@ -33,6 +33,20 @@ globalStore.countEnabled = globalStore.countEnabled + 1;
 } else {
 if (globalStore.enabled_n5) {
 globalStore.enabled_n5 = false;
+globalStore.countEnabled = globalStore.countEnabled - 1;
+}
+}
+}
+
+var update_enabled_n9 = function() {
+if(globalStore.n3 > 0 && globalStore.o>1000) {
+if (!globalStore.enabled_n9) {
+globalStore.enabled_n9 = true;
+globalStore.countEnabled = globalStore.countEnabled + 1;
+}
+} else {
+if (globalStore.enabled_n9) {
+globalStore.enabled_n9 = false;
 globalStore.countEnabled = globalStore.countEnabled - 1;
 }
 }
@@ -66,20 +80,6 @@ globalStore.countEnabled = globalStore.countEnabled - 1;
 }
 }
 
-var update_enabled_n9 = function() {
-if(globalStore.n3 > 0 && globalStore.o>1000) {
-if (!globalStore.enabled_n9) {
-globalStore.enabled_n9 = true;
-globalStore.countEnabled = globalStore.countEnabled + 1;
-}
-} else {
-if (globalStore.enabled_n9) {
-globalStore.enabled_n9 = false;
-globalStore.countEnabled = globalStore.countEnabled - 1;
-}
-}
-}
-
 var update_enabled_n8 = function() {
 if(globalStore.n3 > 0 && globalStore.t<=0&&globalStore.o>0 && globalStore.n2 > 0 && globalStore.t<=0&&globalStore.o>0) {
 if (!globalStore.enabled_n8) {
@@ -104,47 +104,16 @@ globalStore.n2 = globalStore.n2 + 1;
 globalStore.fired_n5 = globalStore.fired_n5 + 1;
 
 var old_var_t = globalStore.t;
-globalStore.t = uniform({a: 0, b: 100000});
+globalStore.t = uniform({a: 300, b: 1000});
 var old_var_o = globalStore.o;
 globalStore.o = 0;
 condition(globalStore.t>0&&globalStore.o==0);
 
-update_enabled_n7();
+update_enabled_n8();
+update_enabled_n9();
 update_enabled_n5();
-update_enabled_n6();
-update_enabled_n9();
-update_enabled_n8();
-}
-
-
-var fire_n7 = function() {
-globalStore.n2 = globalStore.n2 - 1;
-globalStore.n2 = globalStore.n2 + 1;
-
-globalStore.fired_n7 = globalStore.fired_n7 + 1;
-
-var old_var_t = globalStore.t;
-globalStore.t = uniform({a: 0, b: 100000});
-condition(globalStore.t<old_var_t);
-
 update_enabled_n7();
-update_enabled_n8();
-}
-
-
-var fire_n6 = function() {
-globalStore.n3 = globalStore.n3 - 1;
-globalStore.n3 = globalStore.n3 + 1;
-
-globalStore.fired_n6 = globalStore.fired_n6 + 1;
-
-var old_var_o = globalStore.o;
-globalStore.o = uniform({a: 0, b: 100000});
-condition(globalStore.o>old_var_o);
-
 update_enabled_n6();
-update_enabled_n9();
-update_enabled_n8();
 }
 
 
@@ -156,9 +125,40 @@ globalStore.fired_n9 = globalStore.fired_n9 + 1;
 
 
 
-update_enabled_n6();
 update_enabled_n9();
 update_enabled_n8();
+update_enabled_n6();
+}
+
+
+var fire_n7 = function() {
+globalStore.n2 = globalStore.n2 - 1;
+globalStore.n2 = globalStore.n2 + 1;
+
+globalStore.fired_n7 = globalStore.fired_n7 + 1;
+
+var old_var_t = globalStore.t;
+globalStore.t = uniform({a: 50, b: 70});
+condition(globalStore.t<old_var_t);
+
+update_enabled_n8();
+update_enabled_n7();
+}
+
+
+var fire_n6 = function() {
+globalStore.n3 = globalStore.n3 - 1;
+globalStore.n3 = globalStore.n3 + 1;
+
+globalStore.fired_n6 = globalStore.fired_n6 + 1;
+
+var old_var_o = globalStore.o;
+globalStore.o = uniform({a: 50, b: 1100});
+condition(globalStore.o>old_var_o);
+
+update_enabled_n9();
+update_enabled_n8();
+update_enabled_n6();
 }
 
 
@@ -172,10 +172,10 @@ globalStore.fired_n8 = globalStore.fired_n8 + 1;
 
 
 
-update_enabled_n7();
-update_enabled_n6();
 update_enabled_n9();
 update_enabled_n8();
+update_enabled_n7();
+update_enabled_n6();
 }
 
 
@@ -225,9 +225,9 @@ globalStore.xesOutput = "";
 
 var enabledTransitions = filter(function(x) {
 return (x == 0 && globalStore.enabled_n5)||
-(x == 1 && globalStore.enabled_n7)||
-(x == 2 && globalStore.enabled_n6)||
-(x == 3 && globalStore.enabled_n9)||
+(x == 1 && globalStore.enabled_n9)||
+(x == 2 && globalStore.enabled_n7)||
+(x == 3 && globalStore.enabled_n6)||
 (x == 4 && globalStore.enabled_n8);
 }, [0, 1, 2, 3, 4]);
 
@@ -246,24 +246,24 @@ return;
 var transition = sample(Categorical({vs: enabledTransitions}));
 
 if (transition == 0) {
-log_transition("init");
 fire_n5();
+log_transition("init");
 }
 else if (transition == 1) {
-log_transition("dec");
-fire_n7();
+fire_n9();
+log_transition("thresh");
 }
 else if (transition == 2) {
-log_transition("bid");
-fire_n6();
+fire_n7();
+log_transition("dec");
 }
 else if (transition == 3) {
-log_transition("thresh");
-fire_n9();
+fire_n6();
+log_transition("bid");
 }
 else if (transition == 4) {
-log_transition("expire");
 fire_n8();
+log_transition("expire");
 }
 else {
 console.log("Selected illegal transition; should never happen.");
@@ -274,14 +274,14 @@ simulator_loop(steps - 1);
 var simulator = function(){
 init();
 update_enabled_n5();
+update_enabled_n9();
 update_enabled_n7();
 update_enabled_n6();
-update_enabled_n9();
 update_enabled_n8();
 
 globalStore.trace += "<trace>\n";
 
-simulator_loop(4);
+simulator_loop(10);
 
 globalStore.trace += "</trace>\n";
 

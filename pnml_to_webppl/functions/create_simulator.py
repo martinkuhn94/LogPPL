@@ -35,8 +35,9 @@ def create_simulator_sample_transition_function(function_str, net, verbose):
         else:
             function_str += f"else if (transition == {i}) {{\n"
 
-        function_str += f"log_transition(\"{transition.label}\");\n"
         function_str += f"fire_{transition.name}();\n"
+        function_str += f"log_transition(\"{transition.label}\");\n"
+
         function_str += "}\n"
 
     function_str += """else {\nconsole.log("Selected illegal transition; should never happen.");\n}\nsimulator_loop(steps - 1);\n}\n\n"""

@@ -16,7 +16,6 @@ WRITE_VARIABLES_CONDITION = "condition({guard});"
 
 
 def generate_firings(dpn):
-    print("generate firings")
     firings = [_generate_firing(dpn, transition) for transition in dpn.net.transitions]
     return "\n\n".join(firings)+"\n"
 

@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+from datetime import datetime, timedelta, timezone
 
 
 def create_log_header():
@@ -29,6 +30,41 @@ def generate_trace_ids(event_log):
     event_log = "\n".join(event_log_list)
 
     return event_log
+
+
+def create_timestamps(event_log_string):
+    try:
+        now = datetime.now().astimezone()
+        five_years_approx = timedelta(days=(5 * 365) + 1)
+        start_time = now - five_years_approx
+        current_event_time = start_time
+    except Exception as e:
+        print(f"Error occurred while creating timestamps: {e}")
+        return event_log_string  # Return original on error
+
+    input_lines = event_log_string.splitlines()
+    output_lines = []
+    processed_event_count = 0
+
+    for line in input_lines:
+        output_lines.append(line)
+
+        line_stripped = line.strip()
+        is_event_tag = line_stripped.startswith("<event>") or line_stripped.startswith("<event ")
+
+        if is_event_tag:
+            try:
+                timestamp_str = current_event_time.isoformat()
+                timestamp_line = f'<date key="time:timestamp" value="{timestamp_str}"/>'
+                output_lines.append(timestamp_line)
+                current_event_time += timedelta(seconds=1)
+                processed_event_count += 1
+            except Exception as e:
+                # Return partially processed log on error during timestamping
+                print(f"Error occurred while creating timestamps: {e}")
+                return "\n".join(output_lines)
+
+    return "\n".join(output_lines)
 
 
 def generate_event_log(path_to_webppl, full_path):
@@ -60,6 +96,10 @@ def generate_event_log(path_to_webppl, full_path):
         print(e.stderr)
 
     event_log = generate_trace_ids(event_log)
+
+    # --- Call the new timestamp function ---
+    event_log = create_timestamps(event_log)
+
     return event_log
 
 

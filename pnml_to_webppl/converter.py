@@ -20,7 +20,6 @@ def convert_dpn_to_webPPL(path, verbose, simulation_steps, sample_size, simulati
     function_str = enabler_function.create_enabler_function(function_str, dpn, verbose)
 
     # Create Firings Function
-    print("FIRING")
     function_str += firing_function.generate_firings(dpn)
 
     # Create Logging
